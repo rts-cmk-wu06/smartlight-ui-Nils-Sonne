@@ -1,7 +1,9 @@
+import Heading from "./Components/Heading";
+
 function App() {
   return (
-    <div className="App">
-       <h1 className="text-3xl font-bold underline">      Hello world!    </h1>
+    <div className="App pt-9 px-6 h-screen bg-primary">
+      <Heading />
     </div>
   );
 }
